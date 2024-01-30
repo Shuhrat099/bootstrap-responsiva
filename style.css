@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(166, 112, 212);
+}
+.col-4{
+    height: 100px;
+}
+.card{
+    height: 10rem;
+    padding: 0 5rem;
+}
+
+.container{
+    height: 60rem;
+    border: none;
+}
+
+.card h2{
+    font-size: 1rem;
+}
+.btn-primary{
+    width: 18rem;
+    height: 4rem;
+    color: rgb(20, 20, 99);
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: rgb(90, 24, 153);
+}
+.box{
+    height: 15rem;
+    border-radius: 10px;
+    display: flex;
+    align-items:  center;
+}
+.col-6{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .3rem;
+    
+}
+.col-6 h1{
+    font-size: 1rem;
+    
+}
+
+.suyohrang:hover{
+    background-color: rgb(181, 143, 216);
+}
+.yellow:hover{
+    background-color: yellow;
+}
+.green:hover{
+    background-color: rgb(118, 207, 118);
+}
+.blueviolet:hover{
+    background-color: blueviolet;
+}
